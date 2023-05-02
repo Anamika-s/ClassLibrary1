@@ -15,7 +15,7 @@
                     break;
                     case 2: int? num1 = null;
                     int num2 = 20;
-                    //Int32.TryParse(Console.ReadLine(), out num1);
+                    num1 = Int32.TryParse(Console.ReadLine(), out int i) ? i : null;
                     numericFunctions.Subtract(num1, num2);
                     break;
 
